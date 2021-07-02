@@ -10,6 +10,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
 import com.gmerino.submodules.databinding.ActivityMainBinding
+import com.telefonica.mistica.badge.Badge
 
 class MainActivity : AppCompatActivity() {
 
@@ -18,6 +19,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        Badge.test()
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)

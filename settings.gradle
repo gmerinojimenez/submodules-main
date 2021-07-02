@@ -1,2 +1,5 @@
 rootProject.name = "My Application"
 include ':app'
+
+include ':mistica'
+project(':mistica').projectDir = new File('mistica-android/library')

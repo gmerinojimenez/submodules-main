@@ -1,0 +1,3 @@
+[submodule "mistica-android"]
+	path = mistica-android
+	url = git@github.com:Telefonica/mistica-android.git
